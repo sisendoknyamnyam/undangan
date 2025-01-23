@@ -131,7 +131,7 @@ export const card = (() => {
         }
 
         if (is_parent) {
-            return `<strong class="me-1">${util.escapeHtml(comment.name)}</strong><i id="badge-${comment.uuid}" class="fa-solid ${comment.presence ? 'fa-circle-check text-success' : 'fa-circle-question text-primary'}"></i>`;
+            return `<strong class="me-1">${util.escapeHtml(comment.name)}</strong><i id="badge-${comment.uuid}" class="fa-solid ${comment.presence ? 'fa-circle-check text-success' : 'fa-circle-check text-success'}"></i>`;
         }
 
         return `<strong>${util.escapeHtml(comment.name)}</strong>`;
